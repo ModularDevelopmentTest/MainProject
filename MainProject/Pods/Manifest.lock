@@ -1,0 +1,16 @@
+PODS:
+  - HandyFrame (1.2.0)
+
+DEPENDENCIES:
+  - HandyFrame
+
+SPEC REPOS:
+  trunk:
+    - HandyFrame
+
+SPEC CHECKSUMS:
+  HandyFrame: 437df83ba7563c56cd55b9bd0128561995463110
+
+PODFILE CHECKSUM: 182f2283a707adf0bae44b3ff597e1d82cc2017c
+
+COCOAPODS: 1.11.2
