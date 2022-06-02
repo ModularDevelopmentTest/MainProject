@@ -1,0 +1,47 @@
+PODS:
+  - CTMediator (46)
+  - HandyFrame (1.2.0)
+  - ModuleA (0.1.0):
+    - CTMediator
+    - HandyFrame
+    - ModuleB_Category
+  - ModuleA_Category (0.1.0):
+    - CTMediator
+  - ModuleB (0.1.0):
+    - HandyFrame
+  - ModuleB_Category (0.1.0):
+    - CTMediator
+
+DEPENDENCIES:
+  - HandyFrame
+  - ModuleA (from `../../ModuleA/ModuleA.podspec`)
+  - ModuleA_Category (from `../../ModuleA_Category/ModuleA_Category.podspec`)
+  - ModuleB (from `../../ModuleB/ModuleB.podspec`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CTMediator
+  https://github.com/situyan/MyRepo.git:
+    - ModuleB_Category
+  trunk:
+    - HandyFrame
+
+EXTERNAL SOURCES:
+  ModuleA:
+    :path: "../../ModuleA/ModuleA.podspec"
+  ModuleA_Category:
+    :path: "../../ModuleA_Category/ModuleA_Category.podspec"
+  ModuleB:
+    :path: "../../ModuleB/ModuleB.podspec"
+
+SPEC CHECKSUMS:
+  CTMediator: f1cf58d509fb3192086c367711f039efd769b907
+  HandyFrame: 437df83ba7563c56cd55b9bd0128561995463110
+  ModuleA: 5e9e28c2497d7789229ad0dac5535aa97a9b64a7
+  ModuleA_Category: 2c61c275152384954b61c932b3a5e8c5282b1ec6
+  ModuleB: 383060ef295b900fd22763693399f5cf4a33d21c
+  ModuleB_Category: 2c5227bc2988092a74b24cc2db627bf5c952dfe8
+
+PODFILE CHECKSUM: 130a5c295a9dc393cf4175d5dbec960b1a4ddc7a
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,28 @@
+{
+  "name": "ModuleA_Category",
+  "version": "0.1.0",
+  "summary": "业务模块A工具组件.",
+  "description": "TODO: 为调用业务模块A提供方便的接口，不对ModuleA有任何依赖.",
+  "homepage": "https://github.com/er2010hacker@163.com/ModuleA_Category",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "er2010hacker@163.com": "er2010hacker@163.com"
+  },
+  "source": {
+    "git": "https://github.com/er2010hacker@163.com/ModuleA_Category.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "ModuleA_Category/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
+}

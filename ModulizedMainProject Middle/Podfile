@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# 私有仓库（存放podsepc文件的仓库）git地址
+source 'https://github.com/situyan/MyRepo.git'
+# cocoapods 公用仓库地址
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'MainProject' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MainProject
+  pod 'HandyFrame'
+  
+  # 引入拆分后的组件（业务组件、工具组件等）
+  pod 'ModuleA_Category', :path => '../../ModuleA_Category/ModuleA_Category.podspec'
+  pod 'ModuleA', :path => '../../ModuleA/ModuleA.podspec'
+  pod 'ModuleB', :path => '../../ModuleB/ModuleB.podspec'
+
+end

@@ -1,0 +1,28 @@
+{
+  "name": "ModuleB",
+  "version": "0.1.0",
+  "summary": "业务模块B.",
+  "description": "TODO: 业务模块B，用于测试组件化.",
+  "homepage": "https://github.com/er2010hacker@163.com/ModuleB",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "er2010hacker@163.com": "er2010hacker@163.com"
+  },
+  "source": {
+    "git": "https://github.com/er2010hacker@163.com/ModuleB.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "ModuleB/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "HandyFrame": [
+
+    ]
+  }
+}
