@@ -1,7 +1,6 @@
 # MainProject
 源主工程：  
-测试，等待拆分成模块化   
-使用[CTMediator](https://github.com/casatwy/CTMediator)作为业务组件解耦与通信的中间件
+测试，等待拆分成模块化    
 
 # ModulizedMainProject Middle
 主工程：   
@@ -19,3 +18,9 @@ pod 'ModuleB_Category'
 ```
 本地私有索引仓库
 <img src='./images/Snipaste_local repo.png'/>
+
+   
+        
+            
+            
+##### 使用[CTMediator](https://github.com/casatwy/CTMediator)作为业务组件解耦与通信的中间件
